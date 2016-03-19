@@ -1,6 +1,6 @@
 ###Introdução
 
-_Swift_ é uma recente linguagem de programação desenvolvida com o proncipal objetivo de servir programadores que pretendem
+_Swift_ é uma recente linguagem de programação desenvolvida com o principal objetivo de servir programadores que pretendem
 desenvolver aplicativos e programas para _iOS_, _OS X_, _watchOS_, _tvOS_ (todos esses pertencentes _Apple_) e _Linux_.
 
 ###Origens e influências
