@@ -71,22 +71,6 @@ ou até simplificando, permitindo em uma leitura mais legível. (Exemplos de com
 
 Trecho do código do jogo FlappySwift, uma implementação de FlappyBird para iOS 8:
 
-override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-
-        /* Called when a touch begins */
-        if moving.speed > 0  {
-            for touch: AnyObject in touches {
-                let location = touch.locationInNode(self)
-                
-                bird.physicsBody?.velocity = CGVector(dx: 0, dy: 0)
-                bird.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 30))
-                
-            }
-        } else if canRestart {
-            self.resetScene()
-        }
-    }
-
 ###Bibliografia
 
 Wikipedia:
