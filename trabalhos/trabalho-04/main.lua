@@ -75,7 +75,7 @@ function love.update(dt)
 		objects.polygon.body:setPosition(objects.polygon.body:getX() - 15, love.graphics.getHeight()-7.5)
 	end
 	-- Nome: Palavra reservada 'if'
-	-- Propriedade: Definição de estrutura de decisão
+	-- Propriedade: Semântica
 	-- Binding time: Design
 	-- Explicação: Foi definido, durante a implementação da linguagem, 
 	-- que a palavra reservada 'if' definiria o bloco de estrutura de decisão
@@ -102,7 +102,7 @@ end
 
 function love.draw()
 -- Nome: Palavra reservada 'function'
--- Propriedade: Definição de início de função
+-- Propriedade: Sintaxe
 -- Binding time: Design
 -- Explicação: Foi definido, durante a implementação da linguagem, 
 -- que a palavra reservada 'function' definiria o início de uma função
